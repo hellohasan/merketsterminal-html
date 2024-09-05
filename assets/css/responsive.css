@@ -25,6 +25,7 @@
 	.navbar .megamenu {
 		left: 0;
 		right: 0;
+		top:100%;
 		width: 98%;
 		margin-top: 0;
 		margin: auto;
@@ -121,6 +122,33 @@
     .nav-link{
         padding: 15px 0;
     }
+	.pt100 {
+		padding-top: 80px;
+	}
+	.copyright-text {
+		margin-top: 40px;
+	}
+	.ptb100 {
+		padding: 80px 0;
+	}
+	.ptb120 {
+		padding: 80px 0;
+	}
+	.common-heading-area h3 {
+		font-size: 28px;
+		line-height:40px;
+	}
+	.evaluation-text-box {
+		text-align: center;
+	}
+	.evaluation-text-box ul {
+		margin-top: 40px;
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
 }
 
 @media all and (max-width:767px) {
@@ -137,4 +165,52 @@
     .hero-area-thumnails {
         width: 28%;
     }
+	.footer-description {
+		text-align: center;
+	}
+	.social-menu ul {
+		justify-content: center;
+	}
+	.common-heading-area h3 {
+		font-size: 32px;
+		text-align: center;
+	}
+	.common-heading-area p {
+		font-size: 15px;
+		line-height: 28px;
+		text-align: center;
+	}
+	.blog-all-view{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.hero-area-content {
+		text-align: center;
+	}
+	.evaluation-tab-box{
+		flex-direction: column;
+		gap: 20px;
+	}
+	.tab {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+@media all and (max-width:575px) {
+	.footer-widgets h4::after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.footer-widgets h4 {
+		text-align: center;
+	}
+	.footer-widgets ul li a{
+		text-align: center;
+	}
+	.tab button {
+		width: 100%;
+		height: 90px;
+		padding: 10px;
+	}
 }
