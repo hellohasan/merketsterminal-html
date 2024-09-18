@@ -21,7 +21,12 @@
 	.navbar .has-megamenu {
 		position: static !important;
 	}
-
+	.dropdown:hover .dropdown-menu {
+		display: flex;
+	  }
+	  .dropdown-menu.show {
+		display: flex;
+	  }
 	.navbar .megamenu {
 		left: 0;
 		right: 0;
@@ -212,5 +217,11 @@
 		width: 100%;
 		height: 90px;
 		padding: 10px;
+	}
+	.tabcontent table th, .tabcontent table td {
+		padding: 8px;
+	}
+	.tabcontent table tr td {
+		font-size: 12px;
 	}
 }
